@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservices Frontend</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Microservices Lab Frontend</h1>
+        <p>This frontend can be deployed using Azure Static Web Apps.</p>
+
+        <div class="card">
+            <label for="gatewayUrl">Gateway URL</label>
+            <input type="text" id="gatewayUrl" placeholder="https://your-gateway-url">
+            <button id="checkBtn">Check Health</button>
+            <pre id="output">No request sent yet.</pre>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
